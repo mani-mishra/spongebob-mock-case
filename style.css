@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  color: #414141; /* Dark gray */
+  background-color: #eeeeee; /* Light gray */
+  font-size: 15px;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.page {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.description {
+  margin: 10px 0;
+}
+
+.form-section {
+  margin: 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-element {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+textarea {
+  font-size: 1rem;
+  width: 60%;
+  cursor: text;
+}
