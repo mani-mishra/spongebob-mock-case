@@ -1,5 +1,6 @@
-const toIronicCase = (str = "") => {
-  return str
+const toIronicCase = str => {
+  const ipStr = str || "";
+  return ipStr
     .split("")
     .map(char =>
       Math.random(1) > 0.5 ? char.toUpperCase() : char.toLowerCase()
